@@ -16,6 +16,9 @@
 		CE4CC3B422823A4E007AA5BF /* Grade_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3B322823A4E007AA5BF /* Grade_SaverUITests.swift */; };
 		CE4CC3C222823F4C007AA5BF /* luxisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE4CC3C122823F4C007AA5BF /* luxisb.ttf */; };
 		CE4CC3C4228255C7007AA5BF /* AverageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3C3228255C7007AA5BF /* AverageViewController.swift */; };
+		CE4CC3C622826033007AA5BF /* FinalMarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3C522826033007AA5BF /* FinalMarkController.swift */; };
+		CE4CC3C82282605F007AA5BF /* CurrentGradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3C72282605F007AA5BF /* CurrentGradeController.swift */; };
+		CE4CC3CA22826A18007AA5BF /* MotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3C922826A18007AA5BF /* MotivationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		CE4CC3B522823A4E007AA5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4CC3C122823F4C007AA5BF /* luxisb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = luxisb.ttf; path = ../../../../../opt/X11/share/fonts/TTF/luxisb.ttf; sourceTree = "<group>"; };
 		CE4CC3C3228255C7007AA5BF /* AverageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageViewController.swift; sourceTree = "<group>"; };
+		CE4CC3C522826033007AA5BF /* FinalMarkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalMarkController.swift; sourceTree = "<group>"; };
+		CE4CC3C72282605F007AA5BF /* CurrentGradeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGradeController.swift; sourceTree = "<group>"; };
+		CE4CC3C922826A18007AA5BF /* MotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				CE4CC39C22823A4E007AA5BF /* LaunchScreen.storyboard */,
 				CE4CC39F22823A4E007AA5BF /* Info.plist */,
 				CE4CC3C3228255C7007AA5BF /* AverageViewController.swift */,
+				CE4CC3C522826033007AA5BF /* FinalMarkController.swift */,
+				CE4CC3C72282605F007AA5BF /* CurrentGradeController.swift */,
+				CE4CC3C922826A18007AA5BF /* MotivationViewController.swift */,
 			);
 			path = "Grade Saver";
 			sourceTree = "<group>";
@@ -264,8 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4CC39622823A4A007AA5BF /* HomeViewController.swift in Sources */,
+				CE4CC3C622826033007AA5BF /* FinalMarkController.swift in Sources */,
 				CE4CC39422823A4A007AA5BF /* AppDelegate.swift in Sources */,
 				CE4CC3C4228255C7007AA5BF /* AverageViewController.swift in Sources */,
+				CE4CC3CA22826A18007AA5BF /* MotivationViewController.swift in Sources */,
+				CE4CC3C82282605F007AA5BF /* CurrentGradeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
