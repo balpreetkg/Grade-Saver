@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CE4CC39422823A4A007AA5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC39322823A4A007AA5BF /* AppDelegate.swift */; };
-		CE4CC39622823A4A007AA5BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC39522823A4A007AA5BF /* ViewController.swift */; };
+		CE4CC39622823A4A007AA5BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC39522823A4A007AA5BF /* HomeViewController.swift */; };
 		CE4CC39922823A4B007AA5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CC39722823A4B007AA5BF /* Main.storyboard */; };
 		CE4CC39B22823A4E007AA5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4CC39A22823A4E007AA5BF /* Assets.xcassets */; };
 		CE4CC39E22823A4E007AA5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CC39C22823A4E007AA5BF /* LaunchScreen.storyboard */; };
 		CE4CC3A922823A4E007AA5BF /* Grade_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3A822823A4E007AA5BF /* Grade_SaverTests.swift */; };
 		CE4CC3B422823A4E007AA5BF /* Grade_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3B322823A4E007AA5BF /* Grade_SaverUITests.swift */; };
+		CE4CC3C222823F4C007AA5BF /* luxisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE4CC3C122823F4C007AA5BF /* luxisb.ttf */; };
+		CE4CC3C4228255C7007AA5BF /* AverageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3C3228255C7007AA5BF /* AverageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		CE4CC39022823A4A007AA5BF /* Grade Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grade Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4CC39322823A4A007AA5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE4CC39522823A4A007AA5BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE4CC39522823A4A007AA5BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE4CC39822823A4B007AA5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE4CC39A22823A4E007AA5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4CC39D22823A4E007AA5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		CE4CC3AF22823A4E007AA5BF /* Grade SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grade SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4CC3B322823A4E007AA5BF /* Grade_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade_SaverUITests.swift; sourceTree = "<group>"; };
 		CE4CC3B522823A4E007AA5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4CC3C122823F4C007AA5BF /* luxisb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = luxisb.ttf; path = ../../../../../opt/X11/share/fonts/TTF/luxisb.ttf; sourceTree = "<group>"; };
+		CE4CC3C3228255C7007AA5BF /* AverageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				CE4CC39322823A4A007AA5BF /* AppDelegate.swift */,
-				CE4CC39522823A4A007AA5BF /* ViewController.swift */,
+				CE4CC39522823A4A007AA5BF /* HomeViewController.swift */,
+				CE4CC3C122823F4C007AA5BF /* luxisb.ttf */,
 				CE4CC39722823A4B007AA5BF /* Main.storyboard */,
 				CE4CC39A22823A4E007AA5BF /* Assets.xcassets */,
 				CE4CC39C22823A4E007AA5BF /* LaunchScreen.storyboard */,
 				CE4CC39F22823A4E007AA5BF /* Info.plist */,
+				CE4CC3C3228255C7007AA5BF /* AverageViewController.swift */,
 			);
 			path = "Grade Saver";
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4CC39E22823A4E007AA5BF /* LaunchScreen.storyboard in Resources */,
+				CE4CC3C222823F4C007AA5BF /* luxisb.ttf in Resources */,
 				CE4CC39B22823A4E007AA5BF /* Assets.xcassets in Resources */,
 				CE4CC39922823A4B007AA5BF /* Main.storyboard in Resources */,
 			);
@@ -256,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4CC39622823A4A007AA5BF /* ViewController.swift in Sources */,
+				CE4CC39622823A4A007AA5BF /* HomeViewController.swift in Sources */,
 				CE4CC39422823A4A007AA5BF /* AppDelegate.swift in Sources */,
+				CE4CC3C4228255C7007AA5BF /* AverageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

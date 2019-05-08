@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AverageViewController.swift
 //  Grade Saver
 //
 //  Created by Balpreet on 2019-05-07.
@@ -8,14 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class AverageViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // ya
         // Do any additional setup after loading the view.
     }
-
-
+    
+    
 }
-
