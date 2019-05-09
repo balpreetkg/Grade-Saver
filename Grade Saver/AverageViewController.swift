@@ -10,6 +10,23 @@ import UIKit
 
 class AverageViewController: UIViewController {
     
+    @IBOutlet var collection:[UIView]!
+    
+    @IBOutlet weak var valueOfStepper: UIStepper!
+    
+    @IBAction func stepper(_ sender: UIStepper) {
+        var tracker = 1
+        print(valueOfStepper.value)
+        for x in self.collection {
+            if Int(valueOfStepper.value) >= tracker {
+                x.isHidden = false
+                tracker += 1
+            } else {
+                x.isHidden = true
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // ya

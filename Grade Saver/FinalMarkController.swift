@@ -12,7 +12,7 @@ class FinalMarkController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // ya
+        // yakjh
         // Do any additional setup after loading the view.
     }
     
