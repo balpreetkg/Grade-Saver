@@ -14,6 +14,10 @@ class AverageViewController: UIViewController {
     
     @IBOutlet weak var valueOfStepper: UIStepper!
     
+    @IBAction func submitButtonPressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "GiveAverageSegue", sender: self)
+    }
+    
     @IBAction func stepper(_ sender: UIStepper) {
         var tracker = 1
         print(valueOfStepper.value)

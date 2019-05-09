@@ -19,6 +19,7 @@
 		CE4CC3C622826033007AA5BF /* FinalMarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3C522826033007AA5BF /* FinalMarkController.swift */; };
 		CE4CC3C82282605F007AA5BF /* CurrentGradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3C72282605F007AA5BF /* CurrentGradeController.swift */; };
 		CE4CC3CA22826A18007AA5BF /* MotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC3C922826A18007AA5BF /* MotivationViewController.swift */; };
+		CE94022A2284063B00F6C646 /* GiveAverageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9402292284063B00F6C646 /* GiveAverageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CE4CC3C522826033007AA5BF /* FinalMarkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalMarkController.swift; sourceTree = "<group>"; };
 		CE4CC3C72282605F007AA5BF /* CurrentGradeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGradeController.swift; sourceTree = "<group>"; };
 		CE4CC3C922826A18007AA5BF /* MotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationViewController.swift; sourceTree = "<group>"; };
+		CE9402292284063B00F6C646 /* GiveAverageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveAverageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				CE4CC3C522826033007AA5BF /* FinalMarkController.swift */,
 				CE4CC3C72282605F007AA5BF /* CurrentGradeController.swift */,
 				CE4CC3C922826A18007AA5BF /* MotivationViewController.swift */,
+				CE9402292284063B00F6C646 /* GiveAverageController.swift */,
 			);
 			path = "Grade Saver";
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				CE4CC3C4228255C7007AA5BF /* AverageViewController.swift in Sources */,
 				CE4CC3CA22826A18007AA5BF /* MotivationViewController.swift in Sources */,
 				CE4CC3C82282605F007AA5BF /* CurrentGradeController.swift in Sources */,
+				CE94022A2284063B00F6C646 /* GiveAverageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
