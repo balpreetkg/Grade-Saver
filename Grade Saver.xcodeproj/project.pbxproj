@@ -111,11 +111,11 @@
 			children = (
 				CE4CC39322823A4A007AA5BF /* AppDelegate.swift */,
 				CE4CC39522823A4A007AA5BF /* HomeViewController.swift */,
+				CE4CC3C922826A18007AA5BF /* MotivationViewController.swift */,
 				CE4CC3C3228255C7007AA5BF /* AverageViewController.swift */,
 				CE302CC02285FA920034DFA7 /* GiveAverageViewController.swift */,
 				CE4CC3C522826033007AA5BF /* FinalMarkController.swift */,
 				CE4CC3C72282605F007AA5BF /* CurrentGradeController.swift */,
-				CE4CC3C922826A18007AA5BF /* MotivationViewController.swift */,
 				CE4CC3C122823F4C007AA5BF /* luxisb.ttf */,
 				CE4CC39722823A4B007AA5BF /* Main.storyboard */,
 				CE4CC39A22823A4E007AA5BF /* Assets.xcassets */,
