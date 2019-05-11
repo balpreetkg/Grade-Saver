@@ -64,6 +64,10 @@ class AverageViewController: UIViewController {
         let grades = extractGrades(grades: collection)
         var total: Float = 0.0
         var amount = 0
+        if grades.isEmpty {
+            self.errorMessage.isHidden = false
+            return false
+        }
         for x in grades {
             if x > 150.0 {
                 self.errorMessage.isHidden = false
