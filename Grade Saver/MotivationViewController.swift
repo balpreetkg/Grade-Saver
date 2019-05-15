@@ -10,7 +10,7 @@ import UIKit
 
 class MotivationViewController: UIViewController {
     
-    let quotes = ["You can and you will!", "Do not get lazy, do it now!", "Work with determination, and you'll wake with satisfaction.", "When you lose your excuses, you'll find your results", "Don't be afraid to fail, be afraid not to try!", "Your only roadblock is yourself!", "Strive for progress, not perfection", "Stop wishing, start doing!", "You are your only limit.", "In order to succeed, you must first believe that you can"]
+    let quotes = ["You can and you will!", "Do not get lazy, do it now!", "Work with determination, and you'll wake with satisfaction.", "When you lose your excuses, you'll find your results.", "Don't be afraid to fail, be afraid to not try!", "Your only roadblock is yourself!", "Strive for progress, not perfection.", "Stop wishing, start doing!", "You are your only limit.", "In order to succeed, you must first believe that you can!"]
     
     @IBOutlet weak var motivationalQuote: UILabel!
     
